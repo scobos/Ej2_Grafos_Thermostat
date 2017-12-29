@@ -9,8 +9,8 @@ public class Thermostat {
 	}
 	
 	//Valores iniciales
-	private static PartOfDay partOfDay = PartOfDay.Wake;
-	private static Temp temperatura = Temp.Low;
+	static PartOfDay partOfDay = PartOfDay.Wake;
+	static Temp temperatura = Temp.Low;
 	
 
 	public static void advance() {
